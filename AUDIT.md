@@ -2,12 +2,12 @@
 
 ## Verified from supplied notebook
 
-- Malika Fofana and Klara Mladenovic are named authors.
-- Historical split uses two stratified `train_test_split` calls **by image**, not patient.
-- Images are loaded in grayscale, resized to 224×224, divided by 255 and held in memory.
-- ResNet50 uses ImageNet weights and three duplicated grayscale channels. The supplied notebook does not call ResNet `preprocess_input`.
-- GAN minority training uses the training set only. Model selection discussion compares results on the held-out image test.
-- Saved classification reports show the four results retained in HISTORICAL_RESULTS.md.
+* Malika Fofana and Klara Mladenovic are named authors.
+* Historical split uses two stratified `train_test_split` calls **by image**, not patient.
+* Images are loaded in grayscale, resized to 224×224, divided by 255 and held in memory.
+* ResNet50 uses ImageNet weights and three duplicated grayscale channels. The supplied notebook does not call ResNet `preprocess_input`.
+* GAN minority training uses the training set only. Model selection discussion compares results on the held-out image test.
+* Saved classification reports show the four results retained in HISTORICAL_RESULTS.md.
 
 ## Priority findings
 

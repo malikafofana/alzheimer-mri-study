@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# Alzheimer's MRI — a critical deep learning study
+# Alzheimer's MRI: a critical deep learning study
 ### Model complexity is not a substitute for careful evaluation
 **CNN · ResNet50 · DCGAN · Grad-CAM · Imbalance analysis**
 
